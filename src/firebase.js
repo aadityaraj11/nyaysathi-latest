@@ -4,14 +4,14 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";  // Import GoogleAu
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBPC1q5G37pURwHuByVE-8bLt0mKhbv7Gg",
-    authDomain: "nyaysaathi-25335.firebaseapp.com",
-    databaseURL: "https://nyaysaathi-25335-default-rtdb.firebaseio.com",
-    projectId: "nyaysaathi-25335",
-    storageBucket: "nyaysaathi-25335.firebasestorage.app",
-    messagingSenderId: "496077935792",
-    appId: "1:496077935792:web:12e1f4c3051644c335d775",
-    measurementId: "G-4TL00TKBGN"
+    apiKey: "your-api-key",
+    authDomain: "your-auth-domain",
+    databaseURL: "your-db-url",
+    projectId: "your-project-id",
+    storageBucket: "your-bucket",
+    messagingSenderId: "your-id",
+    appId: "your-app-id",
+    measurementId: "your-measurement-id"
 };
 
 const app = initializeApp(firebaseConfig);
